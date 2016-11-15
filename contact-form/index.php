@@ -59,9 +59,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?><!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Simple PHP Contact Form</title>
+    <title>Formulario Simple de Contacto PHP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">

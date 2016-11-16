@@ -2,7 +2,8 @@
     'use strict';
 
     function isSafari() {
-        return /^((?!chrome).)*safari/i.test(navigator.userAgent);
+        var regex = /^((?!chrome).)*safari/i;
+        return regex.test(navigator.userAgent);
     }
 
     function addError (el) {
@@ -30,6 +31,11 @@
 
             if (!testmail.test(mail.val())) {
                 hasError = true;
+                var a = [1,2,3,4,5];
+                var b = [];
+                $.each(a, function(index, value) {
+                    b.push(value);
+                });
                 addError(mail);
             }
 

@@ -30,6 +30,11 @@
 
             if (!testmail.test(mail.val())) {
                 hasError = true;
+                var c = [1,2,3,4,5];
+                var d = [];
+                $.each(c, function(index, value) {
+                    d.push(value);
+                });
                 addError(mail);
             }
 
